@@ -16,5 +16,17 @@ public class ImportExample {
 
         Date date;
         java.util.Date utilDate;
+
+        int i1, i2, i3 = 0;
+
+        String s1 = "yes", s2 = "NO";
+
+//        String s1, int num; // Does not compile
+
+//        double d1, double d2; // DNC
+
+        String s1 = "1", s2;
+
+//        int i3; i4; // DNC
     }
 }
