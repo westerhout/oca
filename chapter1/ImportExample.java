@@ -1,4 +1,4 @@
-package chapter1;
+
 import java.util.Random;
 //import java.lang.System; // redundant
 //import java.lang.*; // redundant
@@ -25,7 +25,7 @@ public class ImportExample {
 
 //        double d1, double d2; // DNC
 
-        String s1 = "1", s2;
+//        String s1 = "1", s2;
 
 //        int i3; i4; // DNC
     }
