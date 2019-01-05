@@ -2,24 +2,24 @@ package chapter6;
 
 public class DevideZero {
 
-    private int a = 0;
-    private int b = 0;
+    private int a = 6;
+    private int b = 6;
 
-    public int devide(int a, int b){
+    public int devide(int a, int b) {
         try {
             return a / b;
-        }catch (ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.print("-1");
             return -1;
-        }catch (RuntimeException e){
+        } catch (RuntimeException e) {
             System.out.println("0");
             return 0;
-        }finally {
+        } finally {
             System.out.print("done");
         }
     }
 
-    public static void main(String[] args){
-        new DevideZero().devide(0,0);
+    public static void main(String[] args) {
+        new DevideZero().devide(0, 0);
     }
 }
