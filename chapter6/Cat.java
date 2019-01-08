@@ -21,5 +21,4 @@ public class Cat {
         leo.parseName();
         System.out.print("6");
     }
-
 }
